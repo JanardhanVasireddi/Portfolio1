@@ -1,0 +1,209 @@
+.bg-clr{
+    background-color: black;
+}
+
+#nav-heading {
+    color:white;
+    font-size:22px;
+    font-style:italic;
+}
+
+#nav-heading:hover{
+    color:peachpuff;
+}
+
+
+#nav-button {
+    background-color: white;
+}
+
+#navItem {
+    color:white;
+    margin-right:7px;
+    font-size:20px;
+    font-style:italic;
+}
+
+#navItem:hover{
+    border-bottom: 2px solid forestgreen;
+    color:peachpuff;
+}
+
+.intro-container{
+    background-size: cover;
+    background-color: black;
+    /* background-image: url("https://th.bing.com/th/id/R.462bf1f4c6cc54ae1b0df8dc5f8fad09?rik=MCLd%2b3G7TKiV%2bg&riu=http%3a%2f%2floft14design.com%2fimages%2fbg_portfolio_greybrick.jpg&ehk=J93%2fiRlKP5F2x19qWMigSoaM5Ef1qM5PXu8Ee2p6tuE%3d&risl=&pid=ImgRaw&r=0"); */
+}
+
+.my-container{
+    background-size: cover;
+    background-color: black;
+    /* background-image: url("https://th.bing.com/th/id/R.462bf1f4c6cc54ae1b0df8dc5f8fad09?rik=MCLd%2b3G7TKiV%2bg&riu=http%3a%2f%2floft14design.com%2fimages%2fbg_portfolio_greybrick.jpg&ehk=J93%2fiRlKP5F2x19qWMigSoaM5Ef1qM5PXu8Ee2p6tuE%3d&risl=&pid=ImgRaw&r=0"); */
+}
+
+.projects-container{
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+    /* background-image: url("https://th.bing.com/th/id/R.462bf1f4c6cc54ae1b0df8dc5f8fad09?rik=MCLd%2b3G7TKiV%2bg&riu=http%3a%2f%2floft14design.com%2fimages%2fbg_portfolio_greybrick.jpg&ehk=J93%2fiRlKP5F2x19qWMigSoaM5Ef1qM5PXu8Ee2p6tuE%3d&risl=&pid=ImgRaw&r=0"); */
+}
+
+.blog-container{
+    background-size: cover;
+    background-color: black;
+    height:100vh;
+    /* background-image: url("https://th.bing.com/th/id/R.462bf1f4c6cc54ae1b0df8dc5f8fad09?rik=MCLd%2b3G7TKiV%2bg&riu=http%3a%2f%2floft14design.com%2fimages%2fbg_portfolio_greybrick.jpg&ehk=J93%2fiRlKP5F2x19qWMigSoaM5Ef1qM5PXu8Ee2p6tuE%3d&risl=&pid=ImgRaw&r=0"); */
+}
+
+.connect-container{
+    background-size: cover;
+    background-color: black;
+    height:100vh;
+    /* background-image: url("https://th.bing.com/th/id/R.462bf1f4c6cc54ae1b0df8dc5f8fad09?rik=MCLd%2b3G7TKiV%2bg&riu=http%3a%2f%2floft14design.com%2fimages%2fbg_portfolio_greybrick.jpg&ehk=J93%2fiRlKP5F2x19qWMigSoaM5Ef1qM5PXu8Ee2p6tuE%3d&risl=&pid=ImgRaw&r=0"); */
+}
+
+.intro-banner{
+    background-size: cover;
+    background-color: black;
+    margin-top: 15px;
+    color:peachpuff;
+    padding:7px;
+    border-style:solid;
+    border-width: 4px;
+    border-color: forestgreen;
+    border-radius:6px;
+    font-style:italic;
+}
+
+.intro-heading{
+    text-align: center;
+    color:peachpuff;
+    font-size:x-large;
+}
+
+.intro-container{
+    padding:80px;
+    margin-top:6px;
+    /* border-style:solid;
+    border-width: 6px;
+    border-color: forestgreen; */
+}
+
+.heading{
+    /* color:#39ff14; */
+    color:peachpuff;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:bold;
+    font-size: 50px;
+    animation: typing 3s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+.span-element{
+    color:#008080;
+    font-style: italic;
+    font-size:50px;
+    font-weight: normal;
+    /* animation: typing 5s steps(20, end), blink-caret 0.55s step-end infinite; */
+}
+
+@keyframes typing{
+    from{
+        width:0;
+    }
+    to{
+        width:60%;
+    }
+}
+
+.heading1{
+    color:peachpuff;
+    font-style: normal;
+    font-size:40px;
+
+}
+
+.my-image-container{
+    margin-top:10px;
+    padding:40px;
+}
+
+.my-image{
+    height:300px;
+    border-width:5px;
+    border-style:double;
+    border-color:#008080;
+    border-radius: 200px;
+}
+
+.my-banner{
+    background-size: cover;
+    background-color: black;
+    margin-top: 15px;
+    color:peachpuff;
+    padding:20px;
+    border-style:solid;
+    border-width: 6px;
+    border-color: forestgreen;
+    border-radius:5px;
+    font-style:italic;
+}
+
+.my-heading{
+    text-align: center;
+    color:#008080;
+}
+
+.footer-section{
+    text-align: center;
+    padding:20px;
+    background-color:black;
+}
+
+.footer-content{
+    color:peachpuff;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: dotted;
+}
+
+.con1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    margin:30px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 46, 170, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -10px 10px, rgba(0, 0, 0, 0.05) -0 0;
+    height:300px;
+    width:300px;
+    border-color:white;
+    border-width: 10px;
+    border-radius:10px;
+    padding:20px;
+    background-size:cover;
+    background-image:url("https://i0.wp.com/cdn.seeklearning.com.au/media/images/career-guide/article/resume/preview-resume-template-1.jpg");
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transform:scale(1.04);
+    transition: 1s ease-in-out;
+}
+
+/* .resume-link{
+    
+} */
+
+.resume{
+    color:peachpuff;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
